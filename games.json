@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sudoku",
+    "title": "數獨筆記本",
+    "category": "邏輯解謎",
+    "description": "三種難度，搭配鉛筆筆記與提示，享受專注解題的樂趣。",
+    "url": "https://briantsaivc-web.github.io/sudoku-notebook/",
+    "cover": "assets/games/sudoku.webp",
+    "coverAlt": "暖色數獨筆記本、鉛筆與數字方塊",
+    "devices": ["phone", "tablet", "desktop"],
+    "deviceLabel": "手機・平板・電腦",
+    "deviceNote": "手機版已完成版面測試，實機體驗持續調整。",
+    "accent": "gold",
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "finflow",
+    "title": "FinFlow 財商沙盒",
+    "category": "財商策略",
+    "description": "擲骰前進、經營現金流，在人生選擇之間，走向自己的夢想。",
+    "url": "https://briantsaivc-web.github.io/finflow/",
+    "cover": "assets/games/finflow.webp",
+    "coverAlt": "青綠與金色的迷你城市、桌遊道路與金幣",
+    "devices": ["tablet", "desktop"],
+    "deviceLabel": "建議平板・電腦",
+    "deviceNote": "資訊較豐富，使用大螢幕遊玩更舒適。",
+    "accent": "cyan",
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "1a2b",
+    "title": "1A2B 猜數字",
+    "category": "數字推理",
+    "description": "跟著 A、B 提示破解神祕數字。挑戰電腦，也能與朋友對戰。",
+    "url": "https://briantsaivc-web.github.io/1a2b-webapp/",
+    "cover": "assets/games/1a2b.webp",
+    "coverAlt": "紫藍色密碼鎖與漂浮的 A、B 字母方塊",
+    "devices": ["desktop"],
+    "deviceLabel": "電腦｜手機、平板待驗證",
+    "deviceNote": "手機與平板的操作體驗尚待確認。",
+    "accent": "violet",
+    "order": 3,
+    "published": true
+  }
+]

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1426">
+  <meta name="description" content="Brian’s Playroom 遊戲小屋：數獨、1A2B 猜數字與 FinFlow 財商沙盒。挑一款，打開瀏覽器就能玩。">
+  <title>Brian’s Playroom｜遊戲小屋</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#games">跳至遊戲</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Brian’s Playroom 遊戲小屋首頁">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span><strong>Brian’s Playroom</strong><small>遊戲小屋</small></span>
+      </a>
+      <a class="nav-link" href="#games">全部遊戲 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div><p class="eyebrow">A LITTLE PLAY, A BRIGHTER DAY</p>
+        <h1 id="intro-title">選一款，<span>開始玩。</span></h1>
+        <p class="intro-copy">解謎、策略與靈感，都在這裡。</p>
+      </div>
+      <p class="intro-aside">留一點時間，<br>給純粹的樂趣。<span aria-hidden="true">✦</span></p>
+    </section>
+    <section id="games" class="games-section" aria-labelledby="games-title">
+      <div class="section-header">
+        <div><h2 id="games-title">探索遊戲</h2><p>不同的遊戲，打開不同的想像。</p></div>
+        <span id="game-count" class="game-count" aria-live="polite"></span>
+      </div>
+      <div id="game-grid" class="game-grid" aria-busy="true"><p class="load-message" role="status">遊戲載入中…</p></div>
+      <noscript><p>請開啟 JavaScript 以查看完整遊戲介紹，或直接前往：
+        <a href="https://briantsaivc-web.github.io/sudoku-notebook/">數獨筆記本</a>、
+        <a href="https://briantsaivc-web.github.io/finflow/">FinFlow 財商沙盒</a>、
+        <a href="https://briantsaivc-web.github.io/1a2b-webapp/">1A2B 猜數字</a>。
+      </p></noscript>
+    </section>
+  </main>
+  <footer><p class="coming-soon">更多小遊戲，陸續登場。</p><p class="footer-brand">Brian’s Playroom <span aria-hidden="true">·</span> 用好奇心，玩出更多可能。</p></footer>
+</body>
+</html>
