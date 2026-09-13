@@ -43,5 +43,20 @@
     "accent": "violet",
     "order": 3,
     "published": true
+  },
+  {
+    "id": "tidewatch",
+    "title": "潮痕守望",
+    "category": "生態策略",
+    "description": "在 12 回合內鋪出防潮線，替候鳥與招潮蟹留下棲地。",
+    "url": "https://briantsaivc-web.github.io/tidewatch/",
+    "cover": "assets/games/tidewatch.png",
+    "coverAlt": "晨光下的潮間帶、潮池、防潮堤與紅樹林",
+    "devices": ["phone", "tablet", "desktop"],
+    "deviceLabel": "手機・平板・電腦",
+    "deviceNote": "桌面瀏覽器模擬測試完成；iPhone 實機體驗待驗證。",
+    "accent": "cyan",
+    "order": 4,
+    "published": true
   }
 ]
