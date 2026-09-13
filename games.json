@@ -58,5 +58,20 @@
     "accent": "cyan",
     "order": 4,
     "published": true
+  },
+  {
+    "id": "gomoku",
+    "title": "五子棋・木紋棋院",
+    "category": "棋盤策略",
+    "description": "在經典木紋棋盤上連成五子，挑戰三種難度的電腦棋手，也能同機對弈。",
+    "url": "https://briantsaivc-web.github.io/gomoku/",
+    "cover": "assets/games/gomoku.svg",
+    "coverAlt": "木紋五子棋盤與黑白棋子",
+    "devices": ["phone", "tablet", "desktop"],
+    "deviceLabel": "手機・平板・電腦",
+    "deviceNote": "三種版面尺寸已完成瀏覽器測試；手機與平板實機體驗待驗證。",
+    "accent": "gold",
+    "order": 5,
+    "published": true
   }
 ]

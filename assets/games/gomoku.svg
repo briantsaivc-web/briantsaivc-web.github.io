@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">五子棋・木紋棋院</title>
+  <desc id="desc">暖色木紋棋盤上的黑白五子棋局</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#261b15"/>
+      <stop offset="1" stop-color="#0f0b09"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e3b86f"/>
+      <stop offset=".55" stop-color="#c88b42"/>
+      <stop offset="1" stop-color="#a7622d"/>
+    </linearGradient>
+    <radialGradient id="whiteStone" cx="35%" cy="25%" r="70%">
+      <stop stop-color="#fffdf5"/>
+      <stop offset="1" stop-color="#bcb8ac"/>
+    </radialGradient>
+    <radialGradient id="blackStone" cx="35%" cy="25%" r="70%">
+      <stop stop-color="#55504c"/>
+      <stop offset=".45" stop-color="#201d1b"/>
+      <stop offset="1" stop-color="#050504"/>
+    </radialGradient>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M45 0H0V45" fill="none" stroke="#4e2d17" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1090" cy="90" r="210" fill="#d89a4a" opacity=".1"/>
+  <circle cx="110" cy="610" r="250" fill="#f1c36c" opacity=".06"/>
+  <g filter="url(#shadow)">
+    <rect x="330" y="38" width="610" height="610" rx="24" fill="url(#wood)" stroke="#f0ca85" stroke-width="5"/>
+    <path d="M355 118c140-38 290 25 555-35M350 565c180 38 320-30 565 12M376 318c125-32 310 25 535-16" fill="none" stroke="#f5d79b" stroke-opacity=".18" stroke-width="10"/>
+    <rect x="352" y="60" width="566" height="566" fill="url(#grid)"/>
+    <circle cx="622" cy="330" r="6" fill="#4e2d17"/>
+    <circle cx="442" cy="150" r="6" fill="#4e2d17"/>
+    <circle cx="802" cy="150" r="6" fill="#4e2d17"/>
+    <circle cx="442" cy="510" r="6" fill="#4e2d17"/>
+    <circle cx="802" cy="510" r="6" fill="#4e2d17"/>
+    <g stroke="#000" stroke-opacity=".2" stroke-width="2">
+      <circle cx="487" cy="420" r="19" fill="url(#blackStone)"/>
+      <circle cx="532" cy="375" r="19" fill="url(#blackStone)"/>
+      <circle cx="577" cy="330" r="19" fill="url(#blackStone)"/>
+      <circle cx="622" cy="285" r="19" fill="url(#blackStone)"/>
+      <circle cx="667" cy="240" r="19" fill="url(#blackStone)"/>
+      <circle cx="532" cy="420" r="19" fill="url(#whiteStone)"/>
+      <circle cx="577" cy="375" r="19" fill="url(#whiteStone)"/>
+      <circle cx="622" cy="375" r="19" fill="url(#whiteStone)"/>
+      <circle cx="667" cy="330" r="19" fill="url(#whiteStone)"/>
+      <circle cx="712" cy="285" r="19" fill="url(#whiteStone)"/>
+    </g>
+  </g>
+  <g fill="#f9e6bc">
+    <text x="74" y="245" font-family="'Microsoft JhengHei','Noto Sans TC',sans-serif" font-size="86" font-weight="700">五子棋</text>
+    <text x="81" y="304" font-family="'Microsoft JhengHei','Noto Sans TC',sans-serif" font-size="29" letter-spacing="9" fill="#d8ab68">木紋棋院</text>
+  </g>
+</svg>
