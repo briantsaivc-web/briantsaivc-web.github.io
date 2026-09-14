@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+<title id="title">見好就收</title><desc id="desc">夜市燈籠、攤位與金色籌碼</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10213c"/><stop offset="1" stop-color="#302143"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe5a0"/><stop offset="1" stop-color="#d58b35"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffb957" stop-opacity=".35"/><stop offset="1" stop-color="#ffb957" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="600" fill="url(#bg)"/><ellipse cx="480" cy="220" rx="440" ry="310" fill="url(#glow)"/>
+<path d="M0 62 Q480 165 960 62" fill="none" stroke="#7b6270" stroke-width="5"/>
+<g fill="#ffab63" stroke="#ffe0a2" stroke-width="3"><rect x="100" y="85" width="55" height="75" rx="22"/><rect x="305" y="120" width="55" height="75" rx="22"/><rect x="600" y="120" width="55" height="75" rx="22"/><rect x="805" y="85" width="55" height="75" rx="22"/></g>
+<g fill="#654858"><path d="M50 300h225v210H50zM680 300h230v210H680z"/></g><g fill="#d17163"><path d="M25 300l50-80h175l50 80zM655 300l50-80h180l50 80z"/></g><g fill="#efb572"><path d="M65 300l35-80h35l-15 80zM170 300l-5-80h35l25 80zM695 300l35-80h35l-15 80zM800 300l-5-80h35l25 80z"/></g>
+<rect x="78" y="333" width="170" height="130" rx="9" fill="#e6ab69" opacity=".4"/><rect x="708" y="333" width="170" height="130" rx="9" fill="#e6ab69" opacity=".4"/>
+<ellipse cx="480" cy="509" rx="280" ry="40" fill="#090f24" opacity=".5"/>
+<g fill="url(#gold)" stroke="#ffe9ae" stroke-width="5"><ellipse cx="377" cy="470" rx="87" ry="31"/><ellipse cx="377" cy="452" rx="87" ry="31"/><ellipse cx="377" cy="434" rx="87" ry="31"/><ellipse cx="377" cy="416" rx="87" ry="31"/><circle cx="475" cy="340" r="93"/></g><circle cx="475" cy="340" r="69" fill="none" stroke="#b77229" stroke-width="5" stroke-dasharray="12 8"/><path d="M475 300l12 26 29 4-21 20 5 29-25-14-25 14 5-29-21-20 29-4z" fill="#fff1c1"/>
+<circle cx="599" cy="435" r="77" fill="#382c49" stroke="#e99c7b" stroke-width="7"/><path d="M599 391l39 69h-78z" fill="#e99c7b"/><path d="M599 414v20m0 10v3" stroke="#382c49" stroke-width="7" stroke-linecap="round"/>
+<g fill="#ffe2a0"><circle cx="235" cy="173" r="3"/><circle cx="716" cy="181" r="3"/><path d="M465 183l5 14 14 5-14 5-5 14-5-14-14-5 14-5z"/></g></svg>

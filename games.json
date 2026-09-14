@@ -73,5 +73,20 @@
     "accent": "gold",
     "order": 5,
     "published": true
+  },
+  {
+    "id": "ai-native-game-1",
+    "title": "見好就收",
+    "category": "風險策略",
+    "description": "化身夜市攤主，翻籌碼賺收益、掌握收手時機。挑戰三種 AI 難度，在 12 回合內累積淨資產。",
+    "url": "https://briantsaivc-web.github.io/ai-native-game-1/",
+    "cover": "assets/games/ai-native-game-1.svg",
+    "coverAlt": "夜市燈籠下的金色籌碼、攤位與風險警示籌碼",
+    "devices": ["phone", "tablet", "desktop"],
+    "deviceLabel": "手機直向・平板橫向・電腦",
+    "deviceNote": "依專案設計支援手機直向與平板橫向；實機操作體驗待驗證。",
+    "accent": "gold",
+    "order": 6,
+    "published": true
   }
 ]
